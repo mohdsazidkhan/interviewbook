@@ -1,0 +1,30 @@
+.authForm{
+    max-width: 30vw;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+}
+.authContainer.light{
+    background-color: #ddd;
+}
+.authContainer.dark{
+    background-color: #111;
+}
+.authContainer.light .authForm{
+    background-color: #fff;
+    color:#000;
+}
+.authContainer.dark .authForm{
+    background-color: #414141;
+    color:#fff;
+}
+@media screen and (max-width:768px){
+    .authForm {
+        max-width: 100vw;
+        height: 100vh;
+    }
+}

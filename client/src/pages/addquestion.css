@@ -1,0 +1,62 @@
+.addBlog .button {
+  background-image: linear-gradient(90deg, #4a94ed, #0bb66a);
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  margin: 1rem 0;
+  border-radius: 20px;
+  outline: none;
+  cursor: pointer;
+  width: 200px;
+  display: block;
+  text-decoration: none;
+}
+.jodit-status-bar a.jodit-status-bar-link{
+  display: none;
+}
+.jodit-react-container .jodit-container .jodit-workplace{
+  background: #fff;
+}
+.dashboardContainer.light .addQuestion h3,
+.dashboardContainer.light .addQuestion label,
+.dashboardContainer.light .addQuestion h1,
+.dashboardContainer.light .addQuestion h2,
+.dashboardContainer.light .addQuestion h5,
+.dashboardContainer.light .addQuestion h6{
+  color: #000;
+}
+.dashboardContainer.dark .addQuestion h3,
+.dashboardContainer.dark .addQuestion label,
+.dashboardContainer.dark .addQuestion h1,
+.dashboardContainer.dark .addQuestion h2,
+.dashboardContainer.dark .addQuestion h5,
+.dashboardContainer.dark .addQuestion h6{
+  color: #fff;
+}
+.dashboardContainer.light .addQuestion{
+  background-color: #fff;
+}
+.dashboardContainer.dark .addQuestion{
+  background-color: #222;
+}
+.jodit-container:not(.jodit_inline) .jodit-wysiwyg{
+  color: #000;
+}
+.dashboardContainer .addQuestion label{
+  display: block;
+}
+.dashboardContainer .photo{
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  top: 0;
+  opacity: 0;
+}
+.profilePhoto{
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}

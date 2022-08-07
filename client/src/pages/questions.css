@@ -1,0 +1,62 @@
+.adminTable{
+    width: 100%;
+}
+.questions{
+    margin: 0;
+    padding: 10px;
+}
+.query{
+    font-weight: 500;
+    font-size: 18px;
+}
+.query p{
+    margin: 0;
+}
+.questions h1{
+    text-shadow: -1px 1px rgb(0 0 0);
+    font-size: 32px;
+    line-height: 40px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.question{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    padding: 5px 10px;
+    box-shadow: 0 1px 5px 0 rgb(0 0 0 / 30%);
+    background: linear-gradient(115deg, #d8e9ff, #e2fff3);
+    font-size: 20px;
+    color: #000000;
+    border-radius: 10px;
+    margin: 0 0 10px 0;
+}
+.dashboardContainer.light .questions,
+.dashboardContainer.light .modal-body{
+    color: #000;
+    background-color: #fff;
+}
+.dashboardContainer.dark .questions,
+.dashboardContainer.dark .modal-body{
+    color: #fff;
+    background-color: #222;
+}
+
+.dashboardContainer.light form h4,
+.dashboardContainer.light form label,
+.dashboardContainer.light .jodit-container .jodit-wysiwyg{
+    color: #000;
+}
+
+.dashboardContainer.dark form h4,
+.dashboardContainer.dark form label{
+    color: #fff;
+}
+@media screen and (max-width:768px){
+    .adminTable {
+        width: 800px;
+    }
+}
+
